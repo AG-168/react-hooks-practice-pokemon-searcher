@@ -1,9 +1,9 @@
-import React , {useEffect, useState} from "react";
+import React , { useState} from "react";
 import { Form } from "semantic-ui-react";
 
 function PokemonForm({onHandleNewPokemon}) {
   const [newPokemonName, setNewPokemonName] = useState("")
-  const [newPokemonHp, setNewPokemonHp] = useState(null)
+  const [newPokemonHp, setNewPokemonHp] = useState("")
   const [newPokemonFrontSprite, setNewPokemonFrontSprite]= useState("")
   const [newPokemonBackSprite, setNewPokemonBackSprite] = useState("")
   
